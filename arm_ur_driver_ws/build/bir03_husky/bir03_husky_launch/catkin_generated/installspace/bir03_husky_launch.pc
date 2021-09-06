@@ -1,0 +1,8 @@
+prefix=/home/haow/arm_ur_driver_ws/install
+
+Name: bir03_husky_launch
+Description: Description of bir03_husky_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

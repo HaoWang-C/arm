@@ -1,0 +1,17 @@
+<launch>
+  <!-- Launch gazebo -->
+  <include file="$(find bir03_husky_launch)/launch/bir03_gazebo.launch">
+  </include>
+
+  <!-- Launch exe -->
+  <include file="$(find bir03_moveit)/launch/husky_ur_moveit_planning_execution.launch">
+    <arg name="sim" default="true" />
+  </include>
+
+  <!-- Launch rviz -->
+  <include file="$(find bir03_moveit)/launch/moveit_rviz.launch">
+    <arg name="config" default="true" />
+  </include>
+
+</launch>
+

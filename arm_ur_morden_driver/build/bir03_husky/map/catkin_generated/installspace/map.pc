@@ -1,0 +1,8 @@
+prefix=/home/haow/arm_ur_morden_driver/install
+
+Name: map
+Description: Description of map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
